@@ -1,0 +1,13 @@
+Dataset_or_issue,Scope_or_values,Check_performed,Status,Caveat_or_action
+Groundwater-level Annexure II,410 numbered records,"Reparsed searchable PDF text layer; numerical latitude, longitude and depth fields match extracted dataset",Verified against source text layer,No numeric mismatches in those fields; not all page images inspected
+Ownership metadata,Rows 1-288 CGWB; 289-410 GWRDC,Checked owner column in source annexure,Corrected in working dataset,Do not describe all 410 observations as CGWB-owned
+Date precision,Rows 289-410 month-year only,Source uses entries such as May-19 and Oct-22,Corrected date representation,Do not treat YYYY-MM-01 placeholders as exact observation dates
+Aserda_Pz coordinates,"22.204000, 74.011000",Printed source value is geographically unexpected for Deesa,Unresolved; exclude from spatial mapping,Requires independent station metadata or official coordinates
+Deesa Pzii Jan 2018,47.50 m bgl,Value appears in source text,Retained but flagged,Exclude from primary trend pending corroboration; consider sensitivity analysis
+Deesa Pzii Jan 2024,9.73 m bgl,Value appears in source text,Retained but flagged,Exclude from primary trend pending corroboration; consider sensitivity analysis
+Fagudara Pz abrupt changes,2020 May 94.54 to Nov 71.66 m bgl; 2022 flagged shifts,Values appear in source text,Retained but flagged,May reflect source/data issues or hydrological/site changes; do not auto-correct
+Resource assessment Table 6.3,"2017, 2020, 2022, 2023",Arithmetic recalculated; figures agree with official CGWB report text,Arithmetic verified,Not a second-agency independent validation
+2022 use-category labels,Irrigation 1203.02; domestic 31164.95 ham as printed,Total adds correctly but categories are inconsistent with adjacent years and 2023,Unresolved source-label issue,Keep as printed; do not silently swap
+Rainfall Table 1.12,"1987-2022, 36 years",All 36 annual values transcribed from report text and summary statistics recalculated,Internal table check complete,Not independently compared against original WRI State Data Centre/IMD station records
+Micro-irrigation / recharge scenarios,CGWB Tables 8.3 and 8.4,Report proposals/estimates reviewed as source-reported figures,Source-derived only,Do not call realised savings; avoid double counting or mixing different baselines
+Independent groundwater monitoring comparison,CGWB official monitoring portal lists January groundwater data 1994-2024,Official portal identified; station-level Deesa rows not yet retrieved and matched,Pending,This is the key remaining independent corroboration step

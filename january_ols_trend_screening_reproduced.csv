@@ -1,0 +1,9 @@
+Well,n_January_observations,first_year,last_year,first_depth_m_bgl,last_depth_m_bgl,OLS_slope_m_per_year,R_squared,interpretation,caveat
+BaloDeesa_Pz-I,9,2013,2024,130.62,179.16,4.661739130434872,0.9034865621490783,depth increasing / water level deeper,well-specific screening; interpret with source/QC limitations
+Deesa Pzi,8,2013,2021,57.31,95.2,3.384729729729568,0.7481486028775943,depth increasing / water level deeper,well-specific screening; interpret with source/QC limitations
+Deesa Pzii,9,2013,2024,62.2,9.73,-2.8493390804595706,0.4162327959497293,depth decreasing / water level shallower,well-specific screening; interpret with source/QC limitations
+Jerda Pz-I,4,2013,2017,149.2,167.86,5.074285714286106,0.9295496114852926,depth increasing / water level deeper,well-specific screening; interpret with source/QC limitations
+Lakhani i,7,2014,2022,76.03,91.55,3.828537234042759,0.5482802165133911,depth increasing / water level deeper,well-specific screening; interpret with source/QC limitations
+Meda,11,2013,2024,5.82,21.9,1.0216090225564376,0.41479285184298575,depth increasing / water level deeper,well-specific screening; interpret with source/QC limitations
+Rasna(Repl)_Pz_I,6,2013,2018,72.67,81.95,1.6508571428572114,0.8194784412442258,depth increasing / water level deeper,well-specific screening; interpret with source/QC limitations
+Sodapur,10,2013,2023,13.05,17.5,0.26874458874458196,0.16565979351949767,depth increasing / water level deeper,well-specific screening; interpret with source/QC limitations

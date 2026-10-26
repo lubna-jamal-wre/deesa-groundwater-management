@@ -1,0 +1,7 @@
+irrigation_pumping_reduction_pct,extraction_MCM,resource_MCM,extraction_stage_pct,extraction_minus_resource_MCM,assumption,recharge_realisation_pct
+10.0,292.81915000000004,227.1736,128.89664556092788,65.64555000000004,non-irrigation extraction and resource unchanged,
+20.0,261.6542,227.1736,115.17808407314935,34.48060000000001,non-irrigation extraction and resource unchanged,
+30.0,230.48925000000003,227.1736,101.45952258537085,3.3156500000000335,non-irrigation extraction and resource unchanged,
+0.0,323.9841,238.27859999999998,135.9686098541791,85.70550000000003,extraction unchanged; additional recharge q*22.21 MCM assumed,50.0
+0.0,323.9841,243.8311,132.87234483213996,80.15300000000002,extraction unchanged; additional recharge q*22.21 MCM assumed,75.0
+0.0,323.9841,249.3836,129.91395584954262,74.60050000000001,extraction unchanged; additional recharge q*22.21 MCM assumed,100.0

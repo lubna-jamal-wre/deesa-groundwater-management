@@ -1,0 +1,28 @@
+DEESA TALUKA GROUNDWATER DATA VALIDATION — FINAL WORKING STATUS
+
+Scope and method
+- Rechecked all 410 Annexure-II numbered records against the searchable text layer of the supplied CGWB Aquifer Management Plan PDF.
+- Parsed all 410 numbered rows from the PDF text layer. Latitude, longitude and depth-to-water values match the extracted dataset numerically for all rows (0 numeric mismatches).
+- This is a text-layer transcription check, not an image-by-image audit of every row and not independent corroboration from a second agency dataset. Do not call the dataset fully verified.
+
+Key correction to metadata
+- Rows 1–288 identify CGWB as owner in the source table. Rows 289–410 identify GWRDC. Earlier extraction metadata incorrectly labelled the whole source as CGWB; the revised working dataset separates the printed owner.
+- Rows 289–410 provide month-year observations only (e.g., May-19, Oct-19). Their earlier YYYY-MM-01 dates are placeholders and must not be analysed as exact day-level dates. Revised dataset stores these as Observation_Month and leaves Observation_Date_exact blank.
+
+Outstanding source anomalies / cautions
+- Row 1 Aserda_Pz prints coordinates 22.204000, 74.011000, which are geographically unexpected for Deesa. Keep excluded from spatial analysis until confirmed against an independent official source.
+- Deesa Pz-II row 100: 47.50 m bgl on 10-01-2018; row 109: 9.73 m bgl on 10-01-2024. Both values are printed in the source and retained unchanged, but should be excluded from the primary trend estimate pending corroboration; use a sensitivity analysis if needed.
+- Large jumps at Fagudara Pz and other flagged rows are not automatically errors: values are retained as printed, but flagged for confirmation.
+- Some well series are sparse, change aquifer/site type, or have long gaps. Do not average all wells into one taluka-wide trend. Report trends well-by-well and identify the result as indicative.
+
+Groundwater resource table
+- Recalculated total extraction and extraction stage for 2017, 2020, 2022 and 2023. Stages recalculate to approximately 127.21%, 182.35%, 166.77% and 142.62%, respectively.
+- 2022 printed irrigation-use (1,203.02 ham) and domestic-use (31,164.95 ham) appear swapped/mislabelled relative to the other years. Their sum with industrial use equals the reported total, so arithmetic alone cannot establish the correct labels. Preserve as printed and describe the likely labelling issue.
+- 2023: annual extractable resource 22,717.36 ham = 227.1736 MCM; total extraction 32,398.41 ham = 323.9841 MCM; extraction stage 142.62%; extraction minus resource = 96.8105 MCM. The last figure is a screening indicator, not a complete physical aquifer balance.
+
+Safe use in the project
+- Use the 2023 resource assessment as the main baseline, with the 2017/2020/2022/2023 snapshots clearly separated.
+- Use groundwater-level data only for selected wells with a defensible location, aquifer, and time series. Treat January-only OLS trends as preliminary, not taluka-wide proof.
+- Exclude row 1 from mapping and the two anomalous Deesa Pz-II values from primary trend fitting unless corroborated. Keep the source values in the audit file.
+- Rows with month-year dates may support seasonal snapshots (May/October) but not exact-day analyses.
+- Cite CGWB (2024), Annexure II and Table 6.1/Table 6.3; explain the limits of PDF text-layer checking.

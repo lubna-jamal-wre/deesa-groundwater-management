@@ -1,0 +1,5 @@
+Assessment_Year,Annual_Extractable_Resource_ham,Irrigation_Use_ham_as_printed,Industrial_Use_ham_as_printed,Domestic_Use_ham_as_printed,Total_Extraction_ham_as_printed,Stage_percent_as_printed,Validation_Note,Recalculated_Total_Extraction_ham,Recalculated_Stage_percent,Resource_MCM,Extraction_MCM,Extraction_minus_resource_MCM_screening_only
+2017,43626.01,54668.4,124.34,704.58,55497.32,127.21,Arithmetic reconciles; net future availability reported as zero,55497.32,127.21154192189475,436.2601,554.9732,118.71309999999998
+2020,18864.09,33111.35,7.3,1279.25,34397.91,182.35,Arithmetic reconciles; net future availability reported as zero,34397.9,182.34592816298056,188.64090000000002,343.9791,155.33820000000003
+2022,19412.66,1203.02,7.3,31164.95,32375.27,166.77,Total extraction sum reconciles but irrigation/domestic columns appear transposed or mislabelled; do not silently reassign,32375.27,166.77400212026586,194.1266,323.7527,129.6261
+2023,22717.36,31164.95,7.3,1226.16,32398.41,142.62,Arithmetic and stage reconcile,32398.41,142.61520704870637,227.17360000000002,323.9841,96.81049999999999

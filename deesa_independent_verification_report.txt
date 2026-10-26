@@ -1,0 +1,23 @@
+DEESA DATA VALIDATION AND INDEPENDENT CHECK — UPDATE
+
+Official source
+CGWB, Aquifer Management Plan of Deesa Taluka, Banaskantha District, Gujarat (NAQUIM 2.0), 2024. Official publication page: https://cgwb.gov.in/cgwbpnm/public/publication-detail/1647
+Official PDF: https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/17512490981386603571file.pdf
+CGWB monitoring portal: https://www.cgwb.gov.in/ground-water-level-monitoring
+
+Checks completed
+1. Groundwater Annexure II: all 410 numbered records were reparsed from the PDF searchable text layer. Latitude, longitude and depth-to-water values match the extracted dataset numerically. This does not establish that every value is hydrologically correct, and it is not an image-by-image check of all rows.
+2. Ownership: source rows 1-288 are CGWB; rows 289-410 are GWRDC. This distinction is preserved in the working dataset.
+3. Date precision: rows 289-410 give month-year only. Their dates must not be treated as exact day-level observations.
+4. Groundwater resource Table 6.3: total-use arithmetic and extraction-stage percentages were recalculated. Values reconcile within rounding for 2017, 2020, 2022 and 2023. The 2022 irrigation/domestic labels remain unresolved because the total arithmetic alone cannot establish the intended labels.
+5. Rainfall Table 1.12: 36 annual values for 1987-2022 were rechecked against the searchable source text and summary statistics recalculated. Mean=660.686 mm; median=678.45 mm; population SD=307.669 mm; sample SD=312.034 mm; minimum=51.7 mm (1987); maximum=1264 mm (2017). The source reports average rainfall 660.7 mm, which agrees with the recalculated mean after rounding.
+6. Intervention values: CGWB-reported micro-irrigation and recharge numbers remain estimates/proposals, not measured outcomes. The 2023 extraction baseline and the separate management-plan irrigation-demand baseline must not be mixed without an explicit explanation.
+
+Remaining independent verification
+The CGWB monitoring portal lists historical groundwater-level datasets, including January levels. However, a station-level official record for the flagged Deesa wells was not retrieved and matched in this validation pass. Therefore, the Aserda coordinate anomaly and suspicious Deesa Pzii/Fagudara observations remain unresolved. Do not claim full independent verification.
+
+Use in report
+- Use the 2023 resource/extraction figures and extraction-stage calculations, citing the CGWB report.
+- Use rainfall values as report-transcribed data and describe their source as WRI, State Data Centre, Government of Gujarat, as cited by CGWB.
+- Use groundwater-level trends only as well-specific preliminary evidence, with flagged values excluded from primary trend analysis and limitations disclosed.
+- Do not correct source values unless another official source confirms the correction.

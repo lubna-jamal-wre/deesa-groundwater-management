@@ -1,0 +1,10 @@
+irrigation_pumping_reduction_pct,recharge_realisation_pct,extraction_MCM,resource_MCM,extraction_stage_pct,extraction_minus_resource_MCM,assumption
+10.0,50.0,292.81915000000004,238.27859999999998,122.88940341264389,54.54055000000005,conditional arithmetic only; not a groundwater model
+10.0,75.0,292.81915000000004,243.8311,120.09097690983639,48.988050000000044,conditional arithmetic only; not a groundwater model
+10.0,100.0,292.81915000000004,249.3836,117.41716375896412,43.435550000000035,conditional arithmetic only; not a groundwater model
+20.0,50.0,261.6542,238.27859999999998,109.81019697110862,23.37560000000002,conditional arithmetic only; not a groundwater model
+20.0,75.0,261.6542,243.8311,107.30960898753277,17.82310000000001,conditional arithmetic only; not a groundwater model
+20.0,100.0,261.6542,249.3836,104.92037166838558,12.270600000000002,conditional arithmetic only; not a groundwater model
+30.0,50.0,230.48925000000003,238.27859999999998,96.73099052957339,-7.789349999999956,conditional arithmetic only; not a groundwater model
+30.0,75.0,230.48925000000003,243.8311,94.52824106522918,-13.341849999999965,conditional arithmetic only; not a groundwater model
+30.0,100.0,230.48925000000003,249.3836,92.42357957780705,-18.894349999999974,conditional arithmetic only; not a groundwater model

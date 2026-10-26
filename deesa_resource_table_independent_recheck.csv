@@ -1,0 +1,5 @@
+Year,Resource_ham,Irrigation_ham_as_printed,Industrial_ham_as_printed,Domestic_ham_as_printed,Total_extraction_ham_as_printed,Sum_of_use_categories_ham,Sum_minus_printed_total_ham,Stage_printed_pct,Stage_recalculated_pct,Resource_MCM,Extraction_MCM,Extraction_minus_resource_MCM_screening_only,Status
+2017,43626.01,54668.4,124.34,704.58,55497.32,55497.32,0.0,127.21,127.21154192189475,436.2601,554.9732,118.71309999999998,Arithmetic reconciles; independent source verification not completed
+2020,18864.09,33111.35,7.3,1279.25,34397.91,34397.9,-0.010000000002037268,182.35,182.34598117375396,188.6409,343.9791,155.33820000000003,Arithmetic reconciles; independent source verification not completed
+2022,19412.66,1203.02,7.3,31164.95,32375.27,32375.27,0.0,166.77,166.77400212026586,194.1266,323.7527,129.6261,2022 category labels unresolved; other years arithmetic reconciles
+2023,22717.36,31164.95,7.3,1226.16,32398.41,32398.41,0.0,142.62,142.61520704870637,227.1736,323.9841,96.81049999999999,Arithmetic reconciles; independent source verification not completed
