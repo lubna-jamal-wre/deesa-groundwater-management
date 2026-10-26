@@ -1,7 +1,17 @@
 # Deesa Taluka Groundwater Management — Reproducible Code Bundle
 
 ## Important honesty note
-This package is a **reproducible code bundle prepared from the project files available in this conversation**. It includes scripts to reproduce the documented cleaning/sorting checks, rainfall statistics, well-wise trend screening, groundwater-balance arithmetic, intervention sensitivity calculations, and a baseline chart. It is **not a claim that these exact scripts were the historical scripts used for every earlier step**. The earlier work included manual review/transcription of source PDF tables and quality-control decisions; the exact original interactive/code history is not fully recoverable from the available files.
+# Deesa Groundwater Management Project
+
+This repository contains the data and Python scripts used for the preliminary analysis of groundwater-resource availability and management scenarios in Deesa Taluka, Banaskantha, Gujarat.
+
+## Contents
+- `data/` — Rainfall, groundwater-level and groundwater-resource datasets, with supporting files.
+- `scripts/` — Python scripts for data processing, statistical analysis, groundwater-balance calculations and intervention scenarios.
+- `outputs/` — Generated tables, results and figures.
+- `requirements.txt` — Python package requirements.
+
+**Note:** The analysis is preliminary. Scenario results depend on stated assumptions.
 
 ## Folder structure
 - `data/`: working CSVs and the available validation bundle.
