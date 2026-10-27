@@ -5,12 +5,9 @@ This repository contains the data, Python scripts and generated outputs used for
 **Important limitation:** This is a preliminary analysis. Intervention scenarios are assumption-based sensitivity calculations, not predictions from a calibrated groundwater-flow model.
 
 ## Contents
-- `data/` — Rainfall, groundwater-level and groundwater-resource datasets, with supporting files.
-- `scripts/` — Python scripts for data processing, statistical analysis, groundwater-balance calculations and intervention scenarios.
-- `outputs/` — Generated tables, results and figures.
-- `requirements.txt` — Python package requirements.
 
-**Note:** The analysis is preliminary. Scenario results depend on stated assumptions.
+- Root directory: input CSV files, six Python scripts, `README.md` and `requirements.txt`.
+- `outputs/`: processed groundwater data, quality-control reports, rainfall statistics, trend-screening results, groundwater-balance calculations, intervention scenario tables and figures.
 
 
 ## Repository structure
