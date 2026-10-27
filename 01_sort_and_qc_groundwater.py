@@ -1,8 +1,8 @@
 from pathlib import Path
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
-src = ROOT / "data" / "deesa_groundwater_validated_working_dataset.csv"
+ROOT = Path(__file__).resolve().parent
+src = ROOT / "deesa_groundwater_validated_working_dataset.csv"
 outdir = ROOT / "outputs"
 outdir.mkdir(exist_ok=True)
 
