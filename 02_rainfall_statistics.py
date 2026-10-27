@@ -1,8 +1,8 @@
 from pathlib import Path
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
-src = ROOT / "data" / "deesa_rainfall_1987_2022_rechecked.csv"
+ROOT = Path(__file__).resolve().parent
+src = ROOT / "deesa_rainfall_1987_2022_rechecked.csv"
 df = pd.read_csv(src)
 print("Columns:", list(df.columns))
 
