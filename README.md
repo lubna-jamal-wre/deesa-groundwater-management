@@ -1,9 +1,8 @@
 # Deesa Taluka Groundwater Management — Reproducible Code Bundle
 
-## Important honesty note
-# Deesa Groundwater Management Project
+This repository contains the data, Python scripts and generated outputs used for the preliminary analysis of groundwater-resource availability and management scenarios in Deesa Taluka, Banaskantha, Gujarat, prepared for the CE 766 preliminary project at IIT Bombay.
 
-This repository contains the data and Python scripts used for the preliminary analysis of groundwater-resource availability and management scenarios in Deesa Taluka, Banaskantha, Gujarat.
+**Important limitation:** This is a preliminary analysis. Intervention scenarios are assumption-based sensitivity calculations, not predictions from a calibrated groundwater-flow model.
 
 ## Contents
 - `data/` — Rainfall, groundwater-level and groundwater-resource datasets, with supporting files.
