@@ -12,16 +12,21 @@ This repository contains the data, Python scripts and generated outputs used for
 
 **Note:** The analysis is preliminary. Scenario results depend on stated assumptions.
 
-## Folder structure
-- `data/`: working CSVs and the available validation bundle.
-- `scripts/01_sort_and_qc_groundwater.py`: reads the 410-record working groundwater CSV, sorts by well/month, reports missingness and flags known issues without silently modifying source values.
-- `scripts/02_rainfall_statistics.py`: calculates annual rainfall descriptive statistics.
-- `scripts/03_january_trend_screening.py`: performs well-specific OLS trend screening for January observations where possible, retaining caveats and source-flag exclusions.
-- `scripts/04_groundwater_balance.py`: calculates the 2023 CGWB baseline balance and extraction stage.
-- `scripts/05_intervention_scenarios.py`: calculates standalone and combined scenario sensitivities.
-- `scripts/06_make_baseline_figure.py`: generates a baseline groundwater resource/extraction chart.
-- `outputs/`: generated result tables and figure.
-- `requirements.txt`: Python package requirements.
+
+## Repository structure
+
+- Root directory: Python scripts, input CSV files, `README.md` and `requirements.txt`.
+- `outputs/`: generated data-quality reports, processed groundwater records, rainfall statistics, January trend-screening results, groundwater-balance tables, intervention scenario tables and the baseline figure.
+
+The six Python scripts are:
+
+- `01_sort_and_qc_groundwater.py` — sorts groundwater records and generates data-quality checks.
+- `02_rainfall_statistics.py` — calculates descriptive rainfall statistics.
+- `03_january_trend_screening.py` — performs well-specific January groundwater-depth trend screening.
+- `04_groundwater_balance.py` — calculates the 2023 baseline groundwater balance.
+- `05_intervention_scenarios.py` — calculates standalone and combined intervention sensitivities.
+- `06_make_baseline_figure.py` — generates the baseline groundwater-resource and extraction figure.
+
 
 ## Main source data and units
 1. CGWB, *Aquifer Management Plan of Deesa Taluka, Banaskantha District, Gujarat (NAQUIM 2.0), 2024*: https://cgwb.gov.in/cgwbpnm/public/publication-detail/1647
@@ -48,18 +53,28 @@ Rainfall is in millimetres (mm). Groundwater depth is in metres below ground lev
 - This package does not include a calibrated groundwater-flow model.
 
 ## Run
-From this folder, install dependencies with:
+
+Run these commands from the repository root directory.
+
+First, install the required packages:
+
 `python -m pip install -r requirements.txt`
 
-Run scripts in order:
-`python scripts/01_sort_and_qc_groundwater.py`
-`python scripts/02_rainfall_statistics.py`
-`python scripts/03_january_trend_screening.py`
-`python scripts/04_groundwater_balance.py`
-`python scripts/05_intervention_scenarios.py`
-`python scripts/06_make_baseline_figure.py`
+Then run the scripts in order:
 
-Scripts write generated tables/figures to `outputs/`.
+`python 01_sort_and_qc_groundwater.py`
+
+`python 02_rainfall_statistics.py`
+
+`python 03_january_trend_screening.py`
+
+`python 04_groundwater_balance.py`
+
+`python 05_intervention_scenarios.py`
+
+`python 06_make_baseline_figure.py`
+
+Generated tables and figures are written to `outputs/`.
 
 ## Baseline constants used
 - Extractable groundwater resource R0 = 227.1736 MCM
