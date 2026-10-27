@@ -2,8 +2,8 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-ROOT = Path(__file__).resolve().parents[1]
-src = ROOT / "data" / "deesa_groundwater_validated_working_dataset.csv"
+ROOT = Path(__file__).resolve().parent
+src = ROOT / "deesa_groundwater_validated_working_dataset.csv"
 df = pd.read_csv(src)
 
 def find_col(cands):
