@@ -1,0 +1,41 @@
+DEESA REPOSITORY CORRECTION — AUDIT NOTES
+
+Source file inspected:
+  deesa_groundwater_validated_working_dataset.csv
+
+Record and identity audit:
+  Total records: 410
+  Non-null distinct Well_Name labels: 30
+  Dedicated Well_ID column: absent
+  Therefore: 30 is a count of distinct name labels, not a verified count of physical monitoring installations.
+
+Seasonal matching rule:
+  Pre-monsoon: Observation_Month = YYYY-05
+  Post-monsoon: Observation_Month = YYYY-10 or YYYY-11
+  Match by identical Well_Name and calendar year.
+  Retain only well-year groups with exactly one May record and exactly one October/November record.
+  Exclude from primary summary if either paired record has QC_Flag containing
+  'Large abrupt change'. Keep source observations in the matched-pairs CSV and mark exclusions.
+
+Reproduced results:
+  Unique matched pairs before QC exclusions: 115
+  Distinct Well_Name labels in matched sample: 25
+  Excluded matched pairs: 2
+  Primary matched pairs: 113
+  Shallower post-monsoon depth (negative post-minus-pre): 94
+  Deeper post-monsoon depth (positive post-minus-pre): 18
+  Unchanged: 1
+  Mean post-minus-pre depth change: -1.815398 m
+  Median post-minus-pre depth change: -2.10 m
+
+Important interpretation:
+  The data contain month-year-only precision for some GWRDC records. The script uses
+  Observation_Month and does not treat placeholder day values as exact dates.
+  Negative post-minus-pre depth change means the post-monsoon depth is shallower.
+  This is a seasonal depth comparison, not annual storage change or a taluka-wide
+  storage estimate. No extrapolation to the full study area is performed.
+
+Repository status:
+  The files in this bundle have been prepared and the analysis script was run against
+  the inspected working CSV. They have NOT been committed or uploaded to GitHub.
+  GitHub connector/write action was not available in this turn. No remote commit, push, or repository update has been made. The ZIP is a local correction bundle for review and manual upload or a later authenticated push.
