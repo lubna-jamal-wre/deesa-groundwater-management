@@ -1,0 +1,8 @@
+Group,Matched_pairs,Distinct_well_name_labels,Post_monsoon_depth_shallower_n,Post_monsoon_depth_deeper_n,No_change_n,Mean_delta_post_minus_pre_m,Median_delta_post_minus_pre_m,Interpretation
+All unique matched pairs (before QC exclusions),115,25,95,19,1,-1.6992173913043491,-2.0999999999999943,Negative delta means post-monsoon depth is shallower.
+Primary analysis (large-abrupt-change pairs excluded),113,25,94,18,1,-1.815398230088497,-2.0999999999999943,Negative delta means post-monsoon depth is shallower.
+Aquifer: Confined (unspecified),27,5,17,10,0,1.5837037037037023,-0.8400000000000034,Negative delta means post-monsoon depth is shallower.
+Aquifer: Confined-I,36,10,35,1,0,-3.326111111111112,-2.2649999999999935,Negative delta means post-monsoon depth is shallower.
+Aquifer: Confined-II,12,3,12,0,0,-2.4991666666666723,-2.5500000000000114,Negative delta means post-monsoon depth is shallower.
+Aquifer: Semi-Confined,3,1,3,0,0,-9.016666666666671,-2.950000000000003,Negative delta means post-monsoon depth is shallower.
+Aquifer: Unconfined,35,6,27,7,1,-2.0319999999999996,-2.84,Negative delta means post-monsoon depth is shallower.
